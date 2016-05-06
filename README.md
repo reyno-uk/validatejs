@@ -295,5 +295,5 @@ There is a sample application provided that runs using the plugin itself.  To ru
 4. You can now run sample application:
 
   ```shell
-  gulp start
+  gulp watch
   ```
