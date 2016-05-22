@@ -99,8 +99,8 @@ declare module 'aurelia-validatejs' {
   export function length(targetOrConfig: any, key?: any, descriptor?: any): any;
   export function presence(targetOrConfig?: any, key?: any, descriptor?: any): any;
   export function required(targetOrConfig?: any, key?: any, descriptor?: any): any;
-  export function date(targetOrConfig: any, key?: any, descriptor?: any): any;
-  export function datetime(targetOrConfig: any, key?: any, descriptor?: any): any;
+  export function date(targetOrConfig?: any, key?: any, descriptor?: any): any;
+  export function datetime(targetOrConfig?: any, key?: any, descriptor?: any): any;
   export function email(targetOrConfig?: any, key?: any, descriptor?: any): any;
   export function equality(targetOrConfig: any, key?: any, descriptor?: any): any;
   export function exclusion(targetOrConfig: any, key?: any, descriptor?: any): any;
