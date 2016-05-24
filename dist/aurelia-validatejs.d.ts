@@ -107,5 +107,5 @@ declare module 'aurelia-validatejs' {
   export function inclusion(targetOrConfig: any, key?: any, descriptor?: any): any;
   export function format(targetOrConfig: any, key?: any, descriptor?: any): any;
   export function url(targetOrConfig?: any, key?: any, descriptor?: any): any;
-  export function numericality(targetOrConfig: any, key?: any, descriptor?: any): any;
+  export function numericality(targetOrConfig?: any, key?: any, descriptor?: any): any;
 }
